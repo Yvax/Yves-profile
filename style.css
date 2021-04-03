@@ -1,0 +1,155 @@
+/*Colors and fonts*/
+
+body {
+background-color: #9DDFD3;
+color: rgb(50, 50, 50);
+font-size: 16px;
+}
+
+h1 {
+color: #575F7D;
+font-size: 35px;
+font-family: 'Open Sans', cursive;
+}
+
+h2 {
+color: #282846;
+font-size: 24px;
+font-weight: lighter;
+font-family: 'Open Sans', serif;
+}
+
+p {
+font-size: 18px;
+font-family: 'Open Sans', serif;
+}
+
+a {
+text-decoration: none;
+color: #1E6F5C;
+font-weight: bold;
+}
+a:hover {
+color: #C64756;
+}
+
+img{
+width: 140px;
+border-radius: 50%
+}
+
+
+.container {
+width: 700px;
+margin: 10px auto;
+}
+
+@media (max-width: 960px) {
+.container {
+width: 700px;
+}
+}
+
+@media (max-width: 720px) {
+.container {
+width: 500px;
+}
+}
+
+@media (max-width: 540px) {
+.container {
+width: 300px;
+}
+}
+
+.card-white {
+background-color: white;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+border-radius: 4px;
+margin: 20px 0px;
+text-align: center;
+}
+
+.img-circle {
+border-radius: 50%
+}
+
+.btn-blue {
+background: #e1866b;
+color: white;
+padding: 15px 20px;
+border-radius: 4px;
+}
+
+.btn-blue:hover {
+background-color: #575F7D;
+color: white;
+}
+
+.btndance-blue:hover {
+background-color: gold;
+color: white;
+}
+
+.btndance-blue {
+background: #575f7d70;
+color: white;
+padding: 15px 20px;
+border-radius: 4px;
+}
+
+.btngastronomy-blue {
+background: #575f7d70;
+color: white;
+padding: 15px 20px;
+border-radius: 4px;
+}
+
+.btngastronomy-blue:hover {
+background-color: gold;
+color: white;
+}
+
+.list-inline {
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li{
+display: inline;
+padding: 0px;
+}
+
+.list-inline i{
+font-size: 50px;
+}
+
+.list-inline i:hover {
+font-size: 80px;
+}
+
+/* Design adjustments using id (1% design remaining) */
+#introduction p {
+margin-bottom: 40px;
+}
+
+#CINEMA p{
+margin: 20px
+}
+
+#POLICY p{
+margin: 20px
+}
+
+#LITERATERY p{
+margin: 20px
+}
+
+
+
+
+
+
+
+}
